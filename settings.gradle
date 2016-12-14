@@ -1,4 +1,4 @@
-rootProject.name = 'kt-netter-server'
+rootProject.name = 'kt-netter'
 
 include ':kt-specifics'
 project(':kt-specifics').projectDir = new File(settingsDir, '..\\kt-specifics')
