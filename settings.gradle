@@ -1,1 +1,13 @@
 rootProject.name = 'kt-netter-server'
+
+include ':kt-specifics'
+project(':kt-specifics').projectDir = new File(settingsDir, '..\\kt-specifics')
+
+include ':kt-toolbox'
+project(':kt-toolbox').projectDir = new File(settingsDir, '..\\kt-toolbox')
+
+include ':kt-stately'
+project(':kt-stately').projectDir = new File(settingsDir, '..\\kt-stately')
+
+include ':kt-eventify'
+project(':kt-eventify').projectDir = new File(settingsDir, '..\\kt-eventify')
